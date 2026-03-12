@@ -47,3 +47,9 @@ The following chart compares the predictions of all three models against the act
 
    git clone https://github.com/diphacf/TSD_models.git
 
+2. Install dependencies:
+   ```bash
+
+   pip install -r requirements.txt
+
+3. Open TSD_models.ipynb and run all cells.
