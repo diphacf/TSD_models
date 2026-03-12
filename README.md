@@ -13,7 +13,8 @@ This project focuses on predicting electricity load consumption using three diff
 - **Seasonality:** High demand during specific hours of the day (Business hours).
 - **Correlation:** Analyzed the relationship between weather variables (Temperature, Wind) and electricity load.
 
-![Correlation Matrix](images/Correlation Matrix.png)
+<img width="625" height="526" alt="Correlation Matrix" src="https://github.com/user-attachments/assets/7d3fe2d2-f6ab-49f1-af49-c7b55bc6a66e" />
+
 
 ## Methodology
 1. **Data Preprocessing:** Handled missing values (zeros), resampled to hourly frequency, and performed feature scaling using `StandardScaler`.
@@ -33,7 +34,8 @@ This project focuses on predicting electricity load consumption using three diff
 ### **Backtesting Visualization**
 The following chart compares the predictions of all three models against the actual load for the last 100 hours of the test set:
 
-![Backtesting Results](images/Comparison of All Models.png)
+<img width="1209" height="449" alt="Comparison of All Models" src="https://github.com/user-attachments/assets/2ac2d25c-eb6a-4c66-a2bf-7eb524af71b5" />
+
 
 ## Business Insights for Data Analyst Position
 - **Model Selection:** XGBoost significantly outperformed other models in this specific dataset, making it the most reliable for short-term forecasting.
@@ -44,3 +46,4 @@ The following chart compares the predictions of all three models against the act
    ```bash
 
    git clone https://github.com/diphacf/TSD_models.git
+
