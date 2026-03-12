@@ -1,4 +1,4 @@
-# ⚡ Electricity Load Forecasting: Statistical vs. ML vs. DL Approaches
+# Electricity Load Forecasting: Statistical vs. ML vs. DL Approaches
 
 ## Project Overview
 This project focuses on predicting electricity load consumption using three different approaches: **Statistical (VAR)**, **Machine Learning (XGBoost)**, and **Deep Learning (LSTM)**. The goal is to identify the most accurate model for short-term energy demand forecasting, which is crucial for grid stability and energy management.
@@ -42,4 +42,5 @@ The following chart compares the predictions of all three models against the act
 ## How to Run
 1. Clone the repository:
    ```bash
+
    git clone https://github.com/diphacf/TSD_models.git
